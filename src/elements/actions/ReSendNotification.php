@@ -5,15 +5,15 @@
  * @license https://craftcms.github.io/license/
  */
 
-namespace zealouswebcraftcms\zealpushnotification\elements\actions;
+namespace zealousweb\zealpushnotification\elements\actions;
 
 use Craft;
 use craft\base\ElementAction;
 use craft\elements\db\ElementQueryInterface;
 use craft\helpers\Json;
 use yii\base\Exception;
-use zealouswebcraftcms\zealpushnotification\elements\WebNotificationElements;
-use zealouswebcraftcms\zealpushnotification\controllers\DefaultController;
+use zealousweb\zealpushnotification\elements\WebNotificationElements;
+use zealousweb\zealpushnotification\controllers\DefaultController;
 
 /**
  *

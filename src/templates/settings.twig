@@ -15,7 +15,7 @@
 
 {% import "_includes/forms" as forms %}
 
-{% do view.registerAssetBundle("zealouswebcraftcms\\zealpushnotification\\assetbundles\\zealpushnotification\\ZealpushNotificationAsset") %}
+{% do view.registerAssetBundle("zealousweb\\zealpushnotification\\assetbundles\\zealpushnotification\\ZealpushNotificationAsset") %}
 
  <a href="javascript:void(0);"  class="btn btn-primary"  style="margin-bottom:20px;" id="myBtn" onclick="show()">How to Create Firebase Account</a>
     
@@ -190,7 +190,7 @@
         var str = element.val();         
         isJson(str);
     });
-    var js_url = '{{current_site_path}}/vendor/zealouswebcraftcms/zealpush-notification/src/assetbundles/zealpushnotification/dist/js/firebase-messaging-sw.js';
+    var js_url = '{{current_site_path}}/vendor/zealousweb/zealpush-notification/src/assetbundles/zealpushnotification/dist/js/firebase-messaging-sw.js';
 
     $('.download-file-id').on('click', function(){
         $.get(js_url, function(data) {

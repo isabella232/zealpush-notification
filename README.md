@@ -22,7 +22,7 @@ You can install this plugin either from the [Plugin Store](https://plugins.craft
 cd /path/to/my-project
 
 # Command the composer to load the plugin
-composer require zealouswebcraftcms/zealpush-notification
+composer require zealousweb/zealpush-notification
 
 # Command the craft to install the plugin
 ./craft install/plugin zealpush-notification

@@ -8,12 +8,12 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotificationtests\unit;
+namespace zealousweb\zealpushnotificationtests\unit;
 
 use Codeception\Test\Unit;
 use UnitTester;
 use Craft;
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\ZealpushNotification;
 
 /**
  * ExampleUnitTest

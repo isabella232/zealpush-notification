@@ -1,6 +1,6 @@
 <?php
 
-namespace zealouswebcraftcms\zealpushnotification\elements\db;
+namespace zealousweb\zealpushnotification\elements\db;
 
 use craft\elements\db\ElementQuery;
 use craft\helpers\Db;

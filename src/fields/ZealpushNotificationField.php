@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\fields;
+namespace zealousweb\zealpushnotification\fields;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
-use zealouswebcraftcms\zealpushnotification\assetbundles\zealpushnotificationfieldfield\ZealpushNotificationFieldFieldAsset;
+use zealousweb\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\assetbundles\zealpushnotificationfieldfield\ZealpushNotificationFieldFieldAsset;
 
 use Craft;
 use craft\base\ElementInterface;

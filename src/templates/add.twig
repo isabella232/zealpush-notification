@@ -17,8 +17,8 @@
 {% extends "_layouts/cp" %}
 {% import "_includes/forms" as forms %}
 
-{% do view.registerAssetBundle("zealouswebcraftcms\\zealpushnotification\\assetbundles\\zealpushnotification\\ZealpushNotificationAsset") %}
-{% do view.registerAssetBundle("zealouswebcraftcms\\zealpushnotification\\assetbundles\\indexcpsection\\IndexCPSectionAsset") %}
+{% do view.registerAssetBundle("zealousweb\\zealpushnotification\\assetbundles\\zealpushnotification\\ZealpushNotificationAsset") %}
+{% do view.registerAssetBundle("zealousweb\\zealpushnotification\\assetbundles\\indexcpsection\\IndexCPSectionAsset") %}
 
 {# Link for the ? icon at the bottom of the page #}
 {% set docsUrl = "???" %}
@@ -32,7 +32,7 @@
 {% set assetsService = craft.app.getAssets() %}
 
 {# Get a URL to an image in our AssetBundle #}
-{% set iconUrl = view.getAssetManager().getPublishedUrl('@zealouswebcraftcms/zealpushnotification/assetbundles/indexcpsection/dist', true) ~ '/img/Index-icon.svg' %}
+{% set iconUrl = view.getAssetManager().getPublishedUrl('@zealousweb/zealpushnotification/assetbundles/indexcpsection/dist', true) ~ '/img/Index-icon.svg' %}
 
 {# Content that should appear in the page header#}
 {% set extraPageHeaderHtml %}

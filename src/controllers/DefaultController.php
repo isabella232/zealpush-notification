@@ -8,13 +8,13 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\controllers;
+namespace zealousweb\zealpushnotification\controllers;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
-use zealouswebcraftcms\zealpushnotification\models\UserNotificationsModel;
-use zealouswebcraftcms\zealpushnotification\models\ZealpushNotificationModel;
-use zealouswebcraftcms\zealpushnotification\records\ZealpushNotificationRecord;
-use zealouswebcraftcms\zealpushnotification\records\WebNotificationsToken;
+use zealousweb\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\models\UserNotificationsModel;
+use zealousweb\zealpushnotification\models\ZealpushNotificationModel;
+use zealousweb\zealpushnotification\records\ZealpushNotificationRecord;
+use zealousweb\zealpushnotification\records\WebNotificationsToken;
 
 use Craft;
 use craft\web\Controller;
@@ -34,8 +34,8 @@ use craft\elements\db\ElementQueryInterface;
 use craft\events\RegisterElementTableAttributesEvent;
 use craft\events\RegisterElementDefaultTableAttributesEvent;
 use craft\events\SetElementTableAttributeHtmlEvent;
-use zealouswebcraftcms\zealpushnotification\elements\WebNotificationElements;
-use zealouswebcraftcms\zealpushnotification\fields\ZealpushNotificationField;
+use zealousweb\zealpushnotification\elements\WebNotificationElements;
+use zealousweb\zealpushnotification\fields\ZealpushNotificationField;
 use craft\elements\Asset;
 use Yii;
 

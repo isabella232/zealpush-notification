@@ -8,13 +8,13 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification;
+namespace zealousweb\zealpushnotification;
 
-use zealouswebcraftcms\zealpushnotification\services\ZealpushNotificationService as ZealpushNotificationServiceService;
-use zealouswebcraftcms\zealpushnotification\variables\ZealpushNotificationVariable;
-use zealouswebcraftcms\zealpushnotification\models\Settings;
-use zealouswebcraftcms\zealpushnotification\fields\ZealpushNotificationField as ZealpushNotificationFieldField;
-use zealouswebcraftcms\zealpushnotification\records\ZealpushNotificationRecord;
+use zealousweb\zealpushnotification\services\ZealpushNotificationService as ZealpushNotificationServiceService;
+use zealousweb\zealpushnotification\variables\ZealpushNotificationVariable;
+use zealousweb\zealpushnotification\models\Settings;
+use zealousweb\zealpushnotification\fields\ZealpushNotificationField as ZealpushNotificationFieldField;
+use zealousweb\zealpushnotification\records\ZealpushNotificationRecord;
 
 use Craft;
 use craft\base\Plugin;
@@ -245,8 +245,8 @@ class ZealpushNotification extends Plugin
         $vendor_path = Craft::getAlias('@vendor'); 
         $dir_path = dirname($vendor_path);
         
-        Craft::setAlias('@banner-image-alias', $dir_path.'/vendor/zealouswebcraftcms/zealpush-notification/resources/banner_images'); 
-        Craft::setAlias('@icon-image-alias', $dir_path.'/vendor/zealouswebcraftcms/zealpush-notification/resources/icon_images'); 
+        Craft::setAlias('@banner-image-alias', $dir_path.'/vendor/zealousweb/zealpush-notification/resources/banner_images'); 
+        Craft::setAlias('@icon-image-alias', $dir_path.'/vendor/zealousweb/zealpush-notification/resources/icon_images'); 
 
         Craft::setAlias('@base-path', CRAFT_BASE_PATH); 
 
@@ -255,8 +255,8 @@ class ZealpushNotification extends Plugin
         array_pop($test);
         $base_path_url = implode('/',$test);
         Craft::setAlias('@base-url-path', $base_path_url); 
-        Craft::setAlias('@banner-base-url', $base_path_url.'/vendor/zealouswebcraftcms/zealpush-notification/resources/banner_images'); 
-        Craft::setAlias('@icon-base-url', $base_path_url.'/vendor/zealouswebcraftcms/zealpush-notification/resources/icon_images'); 
+        Craft::setAlias('@banner-base-url', $base_path_url.'/vendor/zealousweb/zealpush-notification/resources/banner_images'); 
+        Craft::setAlias('@icon-base-url', $base_path_url.'/vendor/zealousweb/zealpush-notification/resources/icon_images'); 
     }
 
     // Protected Methods

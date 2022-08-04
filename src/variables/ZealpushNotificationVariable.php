@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\variables;
+namespace zealousweb\zealpushnotification\variables;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\ZealpushNotification;
 
 use Craft;
 

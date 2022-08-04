@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\assetbundles\indexcpsection;
+namespace zealousweb\zealpushnotification\assetbundles\indexcpsection;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -43,7 +43,7 @@ class IndexCPSectionAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = "@zealouswebcraftcms/zealpushnotification/assetbundles/indexcpsection/dist";
+        $this->sourcePath = "@zealousweb/zealpushnotification/assetbundles/indexcpsection/dist";
 
         // define the dependencies
         $this->depends = [

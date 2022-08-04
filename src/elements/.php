@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\elements;
+namespace zealousweb\zealpushnotification\elements;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\ZealpushNotification;
 
 use Craft;
 use craft\base\Element;

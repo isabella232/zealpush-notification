@@ -10,9 +10,9 @@
  * @copyright Copyright (c) 2021 Zealousweb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\records;
+namespace zealousweb\zealpushnotification\records;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\ZealpushNotification;
 
 use Craft;
 use craft\db\ActiveRecord;

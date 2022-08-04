@@ -1,6 +1,6 @@
 <?php
 
-namespace zealouswebcraftcms\zealpushnotificationtests\acceptance;
+namespace zealousweb\zealpushnotificationtests\acceptance;
 
 use Craft;
 use FunctionalTester;

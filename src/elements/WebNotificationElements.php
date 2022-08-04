@@ -1,11 +1,11 @@
 <?php
-namespace zealouswebcraftcms\zealpushnotification\elements;
+namespace zealousweb\zealpushnotification\elements;
 
 use Craft;
 use craft\base\Element;
-use zealouswebcraftcms\zealpushnotification\elements\db\WebNotificationElementsQuery;
+use zealousweb\zealpushnotification\elements\db\WebNotificationElementsQuery;
 use craft\elements\db\ElementQueryInterface;
-use zealouswebcraftcms\zealpushnotification\elements\actions\ReSendNotification;
+use zealousweb\zealpushnotification\elements\actions\ReSendNotification;
 use craft\elements\actions\Delete;
 use craft\helpers\StringHelper;
 use craft\helpers\UrlHelper;

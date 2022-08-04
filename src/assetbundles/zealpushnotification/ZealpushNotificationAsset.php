@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\assetbundles\zealpushnotification;
+namespace zealousweb\zealpushnotification\assetbundles\zealpushnotification;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -43,7 +43,7 @@ class ZealpushNotificationAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = "@zealouswebcraftcms/zealpushnotification/assetbundles/zealpushnotification/dist";
+        $this->sourcePath = "@zealousweb/zealpushnotification/assetbundles/zealpushnotification/dist";
 
         // define the dependencies
         $this->depends = [

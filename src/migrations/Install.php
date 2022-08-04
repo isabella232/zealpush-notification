@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\migrations;
+namespace zealousweb\zealpushnotification\migrations;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
-use zealouswebcraftcms\zealpushnotification\elements\WebNotificationElements;
+use zealousweb\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\elements\WebNotificationElements;
 
 use Craft;
 use craft\config\DbConfig;
@@ -75,8 +75,8 @@ class Install extends Migration
         array_pop($test);
         $base_path_url = implode('/',$test);
         
-        $ICON_URL = $base_path_url.'/vendor/zealouswebcraftcms/zealpush-notification/resources/icon_images';
-        $ICON_PATH = dirname(Craft::getAlias('@vendor')).'/vendor/zealouswebcraftcms/zealpush-notification/resources/icon_images';
+        $ICON_URL = $base_path_url.'/vendor/zealousweb/zealpush-notification/resources/icon_images';
+        $ICON_PATH = dirname(Craft::getAlias('@vendor')).'/vendor/zealousweb/zealpush-notification/resources/icon_images';
 
         $icon_volume = new Local([
             'name' => 'ZealIconImage',
@@ -90,8 +90,8 @@ class Install extends Migration
             throw new Exception('Couldn’t save icon volume.');
         }
 
-        $BANNER_URL = $base_path_url.'/vendor/zealouswebcraftcms/zealpush-notification/resources/banner_images';
-        $BANNER_PATH = dirname(Craft::getAlias('@vendor')).'/vendor/zealouswebcraftcms/zealpush-notification/resources/banner_images';
+        $BANNER_URL = $base_path_url.'/vendor/zealousweb/zealpush-notification/resources/banner_images';
+        $BANNER_PATH = dirname(Craft::getAlias('@vendor')).'/vendor/zealousweb/zealpush-notification/resources/banner_images';
 
         $banner_volume = new Local([
             'name' => 'ZealBannerImage',
@@ -229,18 +229,14 @@ class Install extends Migration
             '{{%user_notifications}}',
             'id',
             '{{%assets}}',
-            'id',
-            'SET NULL',
-            null
+            'id'
         );
         $this->addForeignKey(
             $this->db->getForeignKeyName('{{%user_notifications}}', 'notificationsBannerImage'),
             '{{%user_notifications}}',
             'id',
             '{{%assets}}',
-            'id',
-            'SET NULL',
-            null
+            'id'
         );
     }
 

@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2021 ZealousWeb
  */
 
-namespace zealouswebcraftcms\zealpushnotification\models;
+namespace zealousweb\zealpushnotification\models;
 
-use zealouswebcraftcms\zealpushnotification\ZealpushNotification;
-use zealouswebcraftcms\zealpushnotification\records\WebNotificationsToken;
+use zealousweb\zealpushnotification\ZealpushNotification;
+use zealousweb\zealpushnotification\records\WebNotificationsToken;
 
 use Craft;
 use craft\base\Model;

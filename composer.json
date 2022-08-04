@@ -1,5 +1,5 @@
 {
-    "name": "zealouswebcraftcms/zealpush-notification",
+    "name": "zealousweb/zealpush-notification",
     "description": "Zealpush Notification",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -11,8 +11,8 @@
         "zealpush notification"
     ],
     "support": {
-        "docs": "https://github.com/zealouswebcraftcms/zealpush-notification/blob/main/README.md",
-        "issues": "https://github.com/zealouswebcraftcms/zealpush-notification/issues"
+        "docs": "https://github.com/zealousweb/zealpush-notification/blob/main/README.md",
+        "issues": "https://github.com/zealousweb/zealpush-notification/issues"
     },
     "license": "MIT",
     "authors": [
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-          "zealouswebcraftcms\\zealpushnotification\\": "src/"
+          "zealousweb\\zealpushnotification\\": "src/"
         }
     },
     "extra": {
@@ -39,11 +39,11 @@
         "handle": "zealpush-notification",
         "developer": "ZealousWeb",
         "developerUrl": "https://www.zealousweb.com",
-        "documentationUrl": "https://github.com/zealouswebcraftcms/zealpush-notification/blob/main/README.md",
-        "changelogUrl": "https://github.com/zealouswebcraftcms/zealpush-notification/blob/main/CHANGELOG.md",
+        "documentationUrl": "https://github.com/zealousweb/zealpush-notification/blob/main/README.md",
+        "changelogUrl": "https://github.com/zealousweb/zealpush-notification/blob/main/CHANGELOG.md",
         "components": {
-            "zealpushNotificationService": "zealouswebcraftcms\\zealpushnotification\\services\\ZealpushNotificationService"
+            "zealpushNotificationService": "zealousweb\\zealpushnotification\\services\\ZealpushNotificationService"
         },
-        "class": "zealouswebcraftcms\\zealpushnotification\\ZealpushNotification"
+        "class": "zealousweb\\zealpushnotification\\ZealpushNotification"
     }
 }
